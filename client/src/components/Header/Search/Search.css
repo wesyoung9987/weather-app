@@ -1,0 +1,38 @@
+.Search form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.Search .input-container label {
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: #333;
+}
+
+.Search .input-container input {
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.Search .input-container {
+  flex: 1;
+}
+
+.Search .button-container {
+  width: 100px;
+}
+
+.Search .button-container button {
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  text-transform: uppercase;
+}
